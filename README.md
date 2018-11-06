@@ -3,8 +3,9 @@ This project made for Shopee Front End Test.<br>
 Created with Facebook create-react-app.<br>
 Run with local server running at http://localhost:3000/ in Google Chrome browser.<br>
 Using version:<br>
-1. npm 6.4.1<br>
-2. react 16.6.0<br><br>
+1. node 10.13.0<br>
+2. npm 6.4.1<br>
+3. react 16.6.0<br><br>
 
 With the structure of the project:<br>
 `shopee-currency-app`<br>
