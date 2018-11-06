@@ -3,7 +3,7 @@ import './App.css';
 import * as currencyConverter from './currency/CurrencyConverter';
 import * as currencyNaming from './currency/CurrencyNaming';
 import { mainConfig } from './config/config';
-import { twoDecimal } from './helper/Helper';
+import { twoDecimal, capitalize } from './helper/Helper';
 
 class App extends Component {
   constructor(){
@@ -86,7 +86,7 @@ class App extends Component {
 
   getNameCode(key) {    // parsing Promise return
     currencyNaming.getCurrencyName(key).then(function(result) {
-      document.getElementById("nameCode"+key).innerHTML = key + " - " + result;
+      document.getElementById("nameCode"+key).innerHTML = key + " - " + capitalize(result);
     });
   }
 
