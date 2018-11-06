@@ -54,6 +54,11 @@
   text-align: right;
   flex-grow: 1;
 }
+.currency-tablehead-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
 .currency-list-detail {
   display: flex;
   flex-direction: column;
@@ -65,15 +70,21 @@
 }
 .currency-list-nominal {
   font-size: 16px;
+  font-weight: 700;
+  color: rgb(50,50,50);
 }
 .remove-tab {
   text-align: center;
-  line-height: 45px;
-  border-left: 1px solid black;
-  width: 5px;
+  line-height: 20px;
+  min-width: 27px;
+  max-width: 27px;
+  background-color: rgb(178,34,34);
+  color: white;
+  height: 25px;
 }
 .remove-tab:hover {
   cursor: pointer;
+  background-color: rgb(188,44,44);
 }
 .currency-list-perone {
   width: 100%;
@@ -91,6 +102,7 @@
 .currency-dropdown {
   position: relative;
   display: inline-block;
+  border: none !important;
 }
 .currency-dropdown:hover {
   cursor: pointer;
@@ -98,15 +110,22 @@
 .currency-dropdown-button {
   text-align: center;
   width: 100%;
+  font-size: 14px;
+  padding: 7px 0;
+  background-color: #00266b;
+  color: white;
+}
+.currency-dropdown-button:hover {
+  background-color: rgb(10, 48, 117);
 }
 .currency-dropdown-content {
   position: absolute;
-  top: 24px;
+  top: 35px;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: center;
-  width: 100%;
+  width: 99.5%;
   margin-bottom: 15px;
 }
 .currency-dropdown-content div {

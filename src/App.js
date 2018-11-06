@@ -107,7 +107,7 @@ class App extends Component {
                   </div>
                   <div className="currency-tablehead-codename">
                     <div>{response.base}</div>
-                    <div><input type="number" className="input-no-style" placeholder="1.00" min="0" onChange={this.setCurrencyChange} /></div>
+                    <div><input type="number" className="currency-tablehead-value input-no-style" placeholder="1.00" min="0" onChange={this.setCurrencyChange} /></div>
                   </div>
                 </div>
               </th>
@@ -134,14 +134,14 @@ class App extends Component {
                       </div>
                     </div>
                     <div className="remove-tab" id={key} onClick={this.removeTab}>
-                      (-)
+                      x
                     </div>
                   </td>
                 </tr>
             ))}
             <tr>
               <td className="currency-dropdown" id="tdDropdown" onClick={this.toogleDropdown}>
-                <div className="currency-dropdown-button">(+) Add More Currencies</div>
+                <div className="currency-dropdown-button">Add More Currencies</div>
                 <div id="divDropdown" className="currency-dropdown-content display-none">
                 </div>
               </td>
