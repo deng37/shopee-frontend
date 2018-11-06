@@ -1,4 +1,4 @@
----------- Shopee Currency ----------<br>
+## Shopee Currency<br>
 This project made for Shopee Front End Test.<br>
 Created with Facebook create-react-app.<br>
 Run with local server running at http://localhost:3000/ in Google Chrome browser.<br>
