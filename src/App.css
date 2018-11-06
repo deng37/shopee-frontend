@@ -1,32 +1,136 @@
-.App {
-  text-align: center;
+/******** Currency - Table ********/
+.currency-container {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.currency-container table {
+  border: 1px solid rgb(0,0,0);
+  width: 100%;
+  margin: 25px 0 10px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.currency-container thead tr:last-child th {
+  border-bottom: 1px solid rgb(0,0,0);
+}
+.currency-container table tr th {
+  display: flex;
+  justify-content: space-between;
+}
+.currency-container table tr th input[type="number"] {
+  text-align: right;
+}
+.currency-container table tr td {
+  border: 1px solid rgb(0,0,0);
+}
+.currency-container table tr td {
+  display: flex;
+  flex-wrap: wrap;
+}
+.currency-container table tr td#tdRates div:nth-child(2) {
+  flex-grow: 1;
+}
+.currency-container table tr td#tdRates div:nth-child(3) {
+  padding-right: 3px;
+}
+.currency-container table tr td input {
+  text-align: right;
+}
+.currency-tablehead-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  text-align: left;
+}
+.currency-tablehead-name {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold; 
+}
+.currency-tablehead-codename {
+  display: flex;
+  flex-direction: row;
+}
+.currency-tablehead-codename div:last-child {
+  text-align: right;
+  flex-grow: 1;
+}
+.currency-list-detail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.currency-list-detail-codevalue {
+  display: flex;
+  flex-direction: row;
+}
+.currency-list-nominal {
+  font-size: 16px;
+}
+.remove-tab {
+  text-align: center;
+  line-height: 45px;
+  border-left: 1px solid black;
+  width: 5px;
+}
+.remove-tab:hover {
+  cursor: pointer;
+}
+.currency-list-perone {
+  width: 100%;
+  font-style: italic;
+  font-size: 12px;
+}
+.currency-list-name {
+  width: 100%;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold; 
+}
+
+/******** Currency - Dropdown ********/
+.currency-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.currency-dropdown:hover {
+  cursor: pointer;
+}
+.currency-dropdown-button {
+  text-align: center;
+  width: 100%;
+}
+.currency-dropdown-content {
+  position: absolute;
+  top: 24px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.currency-dropdown-content div {
+  padding: 12px 16px;
+  text-align: left;
+  border-top: 1px solid #e2e2e2;
+}
+.currency-dropdown-content div:hover {
+  background-color: #00266b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/******** General ********/
+.input-no-style {
+  border: none;
+  background-color: inherit;
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+.visibility-hidden {
+  visibility: hidden;
 }
