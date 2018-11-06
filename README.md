@@ -1,37 +1,37 @@
----------- Shopee Currency ----------
-This project made for Shopee Front End Test.
-Created with Facebook create-react-app and version of:
-1. npm 6.4.1
-2. react 16.6.0
-Tested with local server running at http://localhost:3000/ in Google Chrome browser.
-With the structure of the project:
+---------- Shopee Currency ----------<br>
+This project made for Shopee Front End Test.<br>
+Created with Facebook create-react-app.<br>
+Run with local server running at http://localhost:3000/ in Google Chrome browser.<br>
+Using version:<br>
+1. npm 6.4.1<br>
+2. react 16.6.0<br><br>
 
-shopee-currency-app
-+
-+
-+build
-+node_modules
-+public
-+src
-+++ config
-++++++++ config.js (`main configuration`)
-+++ currency
-++++++++ CurrencyConverter.js (`part of APP.js converting function`)
-++++++++ CurrencyNaming.js (`part of APP.js naming function`)
-+++ helper
-++++++++ Helper.js (`helper function`)
-+++ APP.css
-+++ APP.js (`main source for index.js`)
-+++ APP.test
-+++ index.css
-+++ index.js (`index file`)
-+++ serviceWorker.js
-+++ logo
-+package.json
-+package-lock.json
-+README
-
----------- ---------- ----------
+With the structure of the project:<br>
+`shopee-currency-app`<br>
++<br>
++<br>
++build<br>
++node_modules<br>
++public<br>
++src<br>
++++ config<br>
+++++++++ config.js (`main configuration`)<br>
++++ currency<br>
+++++++++ CurrencyConverter.js (`part of APP.js converting function`)<br>
+++++++++ CurrencyNaming.js (`part of APP.js naming function`)<br>
++++ helper<br>
+++++++++ Helper.js (`helper function`)<br>
++++ APP.css<br>
++++ APP.js (`main source for index.js`)<br>
++++ APP.test<br>
++++ index.css<br>
++++ index.js (`index file`)<br>
++++ serviceWorker.js<br>
++++ logo<br>
++package.json<br>
++package-lock.json<br>
++README<br><br>
+<hr>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
