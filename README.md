@@ -1,8 +1,9 @@
 ## Shopee Currency<br>
 This project made for Shopee Front End Test.<br>
 Created with Facebook create-react-app.<br>
-Run with local server running at http://localhost:3000/ in Google Chrome browser.<br>
-Using version:<br>
+Run with local server running at docker (docker compose) http://localhost:3000/ in Google Chrome browser.<br>
+Provided with unit testing (npm testing).<br>
+Environment version:<br>
 1. node 10.13.0<br>
 2. npm 6.4.1<br>
 3. react 16.6.0<br><br>
@@ -24,11 +25,13 @@ With the structure of the project:<br>
 ++++++++ Helper.js (`helper function`)<br>
 +++ APP.css<br>
 +++ APP.js (`main source for index.js`)<br>
-+++ APP.test<br>
++++ APP.test (`testing unit`)<br>
 +++ index.css<br>
 +++ index.js (`index file`)<br>
 +++ serviceWorker.js<br>
 +++ logo<br>
++Dockerfile<br>
++docker-compose.yml<br>
 +package.json<br>
 +package-lock.json<br>
 +README<br><br>
