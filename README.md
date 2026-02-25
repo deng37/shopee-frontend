@@ -6,7 +6,7 @@ An interface built as a technical assessment for Shopee.
 
 ---
 
-# Tech Stack
+## Tech Stack
 * **Core Library:** React.js (Hooks & Functional Components)
 * **State Management:** Redux with Redux-Saga (handling complex side effects and async API flows)
 * **Styling & UI:** SASS (SCSS) for modular styling and Ant Design for robust UI components
