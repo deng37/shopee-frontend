@@ -1,12 +1,26 @@
-## Shopee Currency<br>
-This project made for Shopee Front End Test.<br>
-Created with Facebook create-react-app.<br>
-Run with local server running at docker (docker compose) http://localhost:3000/ in Google Chrome browser.<br>
-Provided with unit testing (npm testing).<br>
-Environment version:<br>
+## Shopee Frontend - Currency Portal
+An interface built as a technical assessment for Shopee.
+
+**Run with:** Local server via Docker Compose at http://localhost:3000.  
+**Testing:** Provided with unit testing (`npm test`).
+
+---
+
+# Tech Stack
+* **Core Library:** React.js (Hooks & Functional Components)
+* **State Management:** Redux with Redux-Saga (handling complex side effects and async API flows)
+* **Styling & UI:** SASS (SCSS) for modular styling and Ant Design for robust UI components
+* **API Client:** Axios with Interceptors for clean request/response handling
+* **Environment:** Create React App (CRA) with Webpack configuration
+
+---
+
+**Environment version**:<br>
 1. node 10.13.0<br>
 2. npm 6.4.1<br>
 3. react 16.6.0<br><br>
+
+---
 
 With the structure of the project:<br>
 `shopee-currency-app`<br>
@@ -35,7 +49,9 @@ With the structure of the project:<br>
 +package.json<br>
 +package-lock.json<br>
 +README<br><br>
-<hr>
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
